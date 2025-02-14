@@ -11,9 +11,15 @@
 </head>
 <body>
     <h1>Movies For you... Explore, Watch & Enjoy</h1>
-    <!-- <i class="fa-solid fa-magnifying-glass" ></i> -->
      <!-- <img src="image_2025_02_11T08_03_25_272Z.png" alt="Movieimages"> -->
     <input id="Search" type="text" onkeyup="findmovies()" placeholder="Search Movies..."/>
+    <template id="movies-div">
+        <div class="movie-card">
+            <h3 class="h3tag"></h3>
+            <img class="imgtag" src="">
+            <a class="atag"></a>
+        </div>
+    </template>
     <div id="Movies" >
     </div>
 </body>
