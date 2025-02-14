@@ -73,7 +73,7 @@ input{
     }
     .imgtag{
         height: 90px;
-        width: 70px;
+        width: 100%;
     }
     .h3tag, .atag{
         font-size:xx-small;
