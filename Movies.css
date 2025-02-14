@@ -67,18 +67,19 @@ input{
         grid-template-columns: repeat(3,1fr);
         align-items: center;
         justify-items: center;
-        row-gap: 5px;
+        gap: 10px;
         color: azure;
         padding: 5px;
     }
     .imgtag{
         height: 90px;
-        width: 90px;
+        width: 70px;
     }
-    .h3tag{
-        font-size:small;
+    .h3tag, .atag{
+        font-size:x-small;
     }
     .movie-card{
+        padding: 4px;
         height: 150px;
         width: fit-content;
         border:1px solid;
