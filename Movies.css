@@ -81,7 +81,7 @@ input{
     .movie-card{
         padding: 4px;
         height: 150px;
-        width: fit-content;
+        width: 100%;
         border:1px solid;
         border-radius:5px;
         display:flex;
